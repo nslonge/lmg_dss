@@ -21,15 +21,15 @@ There are two modes:
 `./LMG <mode> <document> <search_term>`
 
 Arguments:
-- <mode>: string search algorithm to employ
+- `<mode>`: string search algorithm to employ
   - `bm`: Boyer-Moore
   - `kmp`: Knuth-Morris-Pratt
   - `fp`: fingerprinting
   - `rgx`: regular expression search
   - `ds`: document similarity
   - `pd`: plagiarism detection
-- <document>: text document to search
-- <search_term> phrase to search for
+- `<document>`: text document to search
+- `<search_term>`: phrase to search for
 
 Example:
 
