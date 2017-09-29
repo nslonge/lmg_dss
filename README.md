@@ -12,9 +12,13 @@ OCaml command-line tool for document searching and manipulations. Joint work wit
 
 There are two modes:  
 
-`./LMG`: Text-based interface that allows access to the entire suite
+1. Text-based interface that allows access to the entire suite:
 
-`./LMG <mode> <document> <search_term>`: Feed LMG its arguments directly
+`./LMG`
+
+2. Feed LMG its arguments directly:
+
+`./LMG <mode> <document> <search_term>`
 
 Arguments:
 - <mode>: string search algorithm to employ
@@ -24,13 +28,14 @@ Arguments:
   - `rgx`: regular expression search
   - `ds`: document similarity
   - `pd`: plagiarism detection
-
 - <document>: text document to search
 - <search_term> phrase to search for
 
 Example:
 
-`./LMG bm whit.txt grass`: use the Boyer-Moore algorithm to search whit.txt for the word grass
+Use the Boyer-Moore algorithm to search whit.txt for the word "grass":
+
+`./LMG bm whit.txt grass` 
 
 # Running the Regular Expression Search
 
